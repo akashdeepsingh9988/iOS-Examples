@@ -7,3 +7,11 @@
         let secondS = segue.destination as! SecondVCViewController
         secondS.e = self.searchTxt.text!
         print(secondS.e)
+        
+        
+        
+        
+        //dismiss segue
+        
+        self.dismiss(animated: true, completion: nil)
+        
